@@ -237,23 +237,23 @@ return [
 
         Spatie\Backup\BackupServiceProvider::class,
 
-        Spatie\LinkChecker\LinkCheckerServiceProvider::class,
+        //Spatie\LinkChecker\LinkCheckerServiceProvider::class,
 
-        Spatie\Permission\PermissionServiceProvider::class,
+        //Spatie\Permission\PermissionServiceProvider::class,
 
         // Spatie\ResponseCache\ResponseCacheServiceProvider::class,
 
         // https://github.com/spatie/geocoder
-        Spatie\Geocoder\GeocoderServiceProvider::class,
+        //Spatie\Geocoder\GeocoderServiceProvider::class,
 
         // https://github.com/spatie/laravel-url-signer
-        Spatie\UrlSigner\Laravel\UrlSignerServiceProvider::class,
+        //Spatie\UrlSigner\Laravel\UrlSignerServiceProvider::class,
 
         // https://github.com/spatie/laravel-analytics
-        Spatie\Analytics\AnalyticsServiceProvider::class,
+        //Spatie\Analytics\AnalyticsServiceProvider::class,
 
         // translations manager
-        Barryvdh\TranslationManager\ManagerServiceProvider::class,
+        //Barryvdh\TranslationManager\ManagerServiceProvider::class,
         
         // protects against dumb passwords "unicodeveloper/laravel-password": "1.0.*"
         Unicodeveloper\DumbPassword\DumbPasswordServiceProvider::class,
@@ -339,10 +339,10 @@ return [
         'Date' => Jenssegers\Date\Date::class,
         'Activity' => Spatie\Activitylog\Models\Activity::class,
 
-        'Geocoder' => Spatie\Geocoder\GeocoderFacade::class,
-        'UrlSigner' => Spatie\UrlSigner\Laravel\UrlSignerFacade::class,
+        //'Geocoder' => Spatie\Geocoder\GeocoderFacade::class,
+        //'UrlSigner' => Spatie\UrlSigner\Laravel\UrlSignerFacade::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
-        'Analytics' => Spatie\Analytics\AnalyticsFacade::class,
+        //'Analytics' => Spatie\Analytics\AnalyticsFacade::class,
         // 'ResponseCache' => Spatie\ResponseCache\ResponseCacheFacade::class,
         'Captcha' => Arcanedev\NoCaptcha\Facades\NoCaptcha::class,
         'Widget'       => Arrilot\Widgets\Facade::class,
